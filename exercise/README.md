@@ -14,12 +14,12 @@ First, you will need to sign up for a free account [here](https://www.mongodb.co
 
 ![Atlas Sign Up](./assets/atlas-sign-up.png)
 
-As seen in the image above, you will have two different options to sign up:
+As seen in the image above, you will have **two different options** to sign up:
 
 1. Enter the required information, agree to the Terms of Service, and click Create your Atlas account.
 2. Click Sign up with Google
 
-Choose one of the following two (2) options to proceed:
+Choose **one** of the following **two (2) options** to proceed:
 
 ### Option 1: Sign up ***WITHOUT*** Google
 
@@ -28,20 +28,21 @@ Choose one of the following two (2) options to proceed:
     Click here
 </summary>
 
-1. Provide the required information. You should store this username and password somewhere easily accessible and secure (like a password manager).
-2. Read the Terms of Service and Privacy Policy, then agree to them.
-3. Finally select the Create your Atlas acount option.
+1. Provide the **required information**. You should store this username and password somewhere easily accessible and secure (like a password manager).
+2. Read the **Terms of Service** and **Privacy Policy**, then agree to them.
+3. Finally select the **Create your Atlas acount** option.
 
 If you created an account without using Sign up with Google, you'll be taken to a page asking you to verify your email, as shown below.
 
 ![Atlas Email Verification](./assets/email-verification.png)
 
-Find the email from MongoDB in your inbox and verify your email. After you've verified your email, you'll be taken to a page informing you that you've successfully verified your email and a **Continue** button.
+Find the email from MongoDB in your inbox and verify your email.
+
+After you've verified your email, you'll be taken to a page informing you that you've successfully verified your email and a **Continue** button.
 
 Click the **Continue** button.
 
-Exercise
-Skip to the **Welcome to Atlas** section below.
+Proceed to the **'Welcome to Atlas'** section below.
 
 </details>
 
