@@ -14,7 +14,6 @@ Estimated time to complete core lab exercise: **tktk min**
 
 ## Content
 
-- [Setup](./setup/README.md)
 - [Lab exercise](./exercise/README.md)
 
 ## Deployed sites
