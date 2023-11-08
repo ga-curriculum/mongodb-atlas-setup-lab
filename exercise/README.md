@@ -28,7 +28,7 @@ Choose **one** of the following **two (2) options** to proceed:
     Click here
 </summary>
 
-### If You ***DID NOT*** Sign Up with Google
+### Signing up ***WITHOUT*** Google
 
 1. Provide the **required information**. You should store this username and password somewhere easily accessible and secure (like a password manager).
 2. Read the **Terms of Service** and **Privacy Policy**, then agree to them.
@@ -55,7 +55,9 @@ Proceed to the **'Welcome to Atlas'** section below.
     Click here
 </summary>
 
-### If You ***Did*** Sign Up with Google
+### Signing up ***WITH*** Google
+
+Click the **Sign up with Google** button.
 
 Read the Terms of Service and Privacy Policy, then agree to them.
 
@@ -66,20 +68,6 @@ Select the **Submit** button.
 Proceed to the **'Welcome to Atlas'** section below.
 
 </details>
-
-If instead you would like to use Sign up with Google, select the Sign up with Google button.
-
-
-
-### If You ***Did Not*** Sign Up with Google
-
-> *If you used Sign up with Google, skip to the next section.*
-
-
-
-
-
-
 
 ## Welcome to Atlas
 
