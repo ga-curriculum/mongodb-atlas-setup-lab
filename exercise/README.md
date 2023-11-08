@@ -89,35 +89,49 @@ Select **AWS as the Provider**, and select the **Region** closest to your job ma
 
 Name your cluster whatever you want, but know that this name cannot be changed later. Ensure that the text directly above the **Create** button says **FREE**.
 
-***Do not select the Create button unless this text says FREE.*** If it has a dollar amount, review your selections and ensure you have correctly configured the service from this page. Finally, select the Create button.
+***Do not select the*** **Create** ***button unless this text says*** **FREE.** If it has a dollar amount, review your selections and ensure you have correctly configured the service from this page.
+
+Finally, select the **Create** button.
 
 ![Atlas AWS](./assets/aws.png)
 
 ## Security Quickstart
 
-You will be taken to a Security Quickstart page. There will be a message at the bottom left stating that the database cluster is being provisioned, along with the approximate amount of time it will take to complete.
+You will be taken to a ***Security Quickstart*** page. There will be a message at the bottom left stating that the database cluster is being provisioned, along with the approximate amount of time it will take to complete.
 
-While the cluster is provisioned, create a database user (different from your account user) by following the steps in the How would you like to authenticate your connection section.
+While the cluster is provisioned, create a **database user** (*different from your account user*) by following the steps in the **'How would you like to authenticate your connection?'** section.
 
-The database user's credentials you create now must be embedded in the connection string used to connect to the database, which you will retrieve soon.
+The database user's credentials you create now must be **embedded** in the **connection string** used to connect to the database, which you will retrieve soon.
 
-Select a username and password. The username and password must be alphanumeric. They cannot contain any characters that are not English letters or numbers. Do not use special characters of any kind, including spaces. Feel free to use the Autogenerate Secure Password option if you would like or use the default selections; it will only build passwords that meet this constraint. It is vital that you store this username and password somewhere easily accessible and secure (like a password manager). Use the provided Copy button to ensure you have an exact copy of your chosen password. You are going to need access to this information soon. After you have selected a username and password, select Create User.
+Select a **username** and **password**. The username and password must be **alphanumeric**. They **cannot** contain any characters that are not English letters or numbers. **Do not** use special characters of any kind, including spaces.
+
+Feel free to use the **Autogenerate Secure Password** option if you would like or use the default selections; it will only build passwords that meet this constraint.
+
+It is vital that you store this username and password somewhere easily accessible and secure (like a password manager). Use the provided **Copy** button to ensure you have an exact copy of your chosen password. **You are going to need access to this information soon.**
+
+After you have selected a username and password, select **Create User**.
 
 ![Atlas Security Quickstart 1](./assets/security-quickstart-1.png)
 
-The page should look like this after this step:
+The page should look like this after the above step:
 
 ![Atlas Security Quickstart 1 Complete](./assets/security-quickstart-1-complete.png)
 
-Scroll down to the second step: Where would you like to connect from?
+Scroll down to the second step: **Where would you like to connect from?**
 
-In the IP Address field, enter the text 0.0.0.0/0 exactly as shown here. In the description, write Anywhere. Then click the Add Entry button.
+In the IP Address field, enter the text **0.0.0.0/0** exactly as shown here.
 
-IMPORTANT: This is NOT a suitable setting in a production environment and means that your database can be accessed from any device that has the correct username and password combination. We are using this setting to ensure you can easily develop and deploy to aid your educational experience. For this reason (among others), it is imperative that you not store personally identifying information (phone numbers, addresses, credit card numbers or details, insurance identification, your lucky numbers, etc. in your database.)
+In the description, write **Anywhere**.
+
+Then click the **Add Entry** button.
+
+> ❗️ IMPORTANT: This is NOT a suitable setting in a production environment and means that your database can be accessed from any device that has the correct username and password combination. We are using this setting to ensure you can easily develop and deploy to aid your educational experience. For this reason (among others), it is imperative that you not store personally identifying information (phone numbers, addresses, credit card numbers or details, insurance identification, your lucky numbers, etc. in your database.)
 
 ![Atlas Security Quickstart 2](./assets/security-quickstart-2.png)
 
-The page should look like this after this step. Select the Finish and Close button and then the Go to Overview button in the pop-up.
+The page should look like this after the above step.
+
+Select the **Finish and Close** button and then the **Go to Overview** button in the pop-up.
 
 ![Atlas Security Quickstart 2 Complete](./assets/security-quickstart-2-complete.png)
 
