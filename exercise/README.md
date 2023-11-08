@@ -125,7 +125,7 @@ In the description, write **Anywhere**.
 
 Then click the **Add Entry** button.
 
-> ❗️ IMPORTANT: This is NOT a suitable setting in a production environment and means that your database can be accessed from any device that has the correct username and password combination. We are using this setting to ensure you can easily develop and deploy to aid your educational experience. For this reason (among others), it is imperative that you not store personally identifying information (phone numbers, addresses, credit card numbers or details, insurance identification, your lucky numbers, etc. in your database.)
+> ❗️ IMPORTANT: This is ***NOT*** a suitable setting in a production environment and means that your database can be accessed from any device that has the correct username and password combination. We are using this setting to ensure you can easily develop and deploy to aid your educational experience. For this reason (among others), it is imperative that you not store personally identifying information (phone numbers, addresses, credit card numbers or details, insurance identification, your lucky numbers, etc. in your database.)
 
 ![Atlas Security Quickstart 2](./assets/security-quickstart-2.png)
 
@@ -137,71 +137,91 @@ Select the **Finish and Close** button and then the **Go to Overview** button in
 
 ## Obtain the Connection String
 
-IMPORTANT: Database connection strings contain the username and password for connecting to the database. Never include the connection string in the project's source code - use a .env file instead.
+**IMPORTANT:** Database connection strings ***contain*** the **username** and **password** for connecting to the database. **NEVER** include the connection string in the project's source code - use a `.env` file instead.
 
-You will arrive on the Overview page. To obtain the connection string that will be added to a project's .env file, click the Connect button as shown below:
+You will arrive on the **Overview** page. To obtain the connection string that will be added to a project's `.env` file, click the **Connect** button as shown below:
 
 ![Atlas Overview](./assets/atlas-overview.png)
 
-Select the only option under the Connect to your application header, Drivers:
+Select the only option under the **Connect to your application** header, **Drivers**:
 
 ![Atlas Connection Methos](./assets/connection-method.png)
 
-Click the copy button to add the connection string to your clipboard. You do not need to do anything else on this page.
+Click the **'copy'** button to add the connection string to your clipboard. You do not need to do anything else on this page.
 
 ![Atlas Connection String](./assets/connection-string.png)
 
-Use the Connection String in Your App
-Please do not attempt to use any of the connection strings below; they will not function in your applications.
+## Use the Connection String in Your App
 
-You're almost done, but you MUST update the connection string with a few changes:
+> ❗️ Please do not attempt to use any of the connection strings below; they will not function in your applications.
 
-Replace <password> (including the < and the >) with the password of the database user you created earlier.
+You're almost done, but you ***MUST*** update the connection string with a few changes:
 
-For example, using the password my2Tacos along with the connection string above as an example, the connection string would look like this after making this change:
+1. Replace `<password>` (including the `<` and the `>`) with the **password** of the database user you created earlier.
 
-mongodb+srv://student:my2Tacos@student-cluster.uwdsn12.mongodb.net/?retryWrites=true&w=majority
-IMPORTANT: The connection string does not include a database name by default. You'll add an appropriate database name between the /? part of the connection string for each project. For example, if you have a project named mongoose-movies, you could give the database the same name:
+    For example, using the password `my2Tacos` along with the connection string above as an example, the connection string would look like this after making this change:
 
-mongodb+srv://student:my2Tacos@student-cluster.uwdsn12.mongodb.net/mongoose-movies?retryWrites=true&w=majority
+    ```bash
+    mongodb+srv://student:my2Tacos@student-cluster.uwdsn12.mongodb.net/?retryWrites=true&w=majority
+    ```
+
+2. **IMPORTANT:** The connection string does not include a database name by default. You'll add an appropriate database name between the `/?` part of the connection string for each project. For example, if you have a project named `my-project`, you could give the database the same name:
+
+    ```bash
+    mongodb+srv://student:my2Tacos@student-cluster.uwdsn12.mongodb.net/my-project?retryWrites=true&w=majority
+    ```
 You're good to go!
 
-You can now paste the connection string in an application's .env file, assigning it to a DATABASE_URL environment variable. As an example:
+You can now paste the connection string in an application's `.env` file, assigning it to a **DATABASE_URL** environment variable. As an example:
 
-DATABASE_URL=mongodb+srv://student:<password>@student-cluster.uwdsn12.mongodb.net/?retryWrites=true&w=majority
-🎉 Save the copied database connection string in a safe place for future reference! You will be using it in several projects.
+```bash
+DATABASE_URL=mongodb+srv://student:my2Tacos@student-cluster.uwdsn12.mongodb.net/my-project?retryWrites=true&w=majority
+```
 
-For future projects, continue to use the same connection string - just be sure to change the database name part of the connection string, as mentioned above. For example, if you were to build a flights app, you might have a connection string that looks like this:
+You can use this database connection string for multiple projects. If you plan to do so, save the copied database connection string in a safe place for future reference! 
 
+For future projects, if you do use the same connection string, just be sure to change the ***database name*** part of the connection string, as mentioned above. For example, if you were to build a **flights** app, you might have a connection string that looks like this:
+
+```bash
 mongodb+srv://student:my2Tacos@student-cluster.uwdsn12.mongodb.net/flights?retryWrites=true&w=majority
-And if you were to build a tacos app, you might have a connection string that looks like:
+```
 
+And if you were to build a **tacos** app, you might have a connection string that looks like:
+
+```bash
 mongodb+srv://student:my2Tacos@student-cluster.uwdsn12.mongodb.net/tacos?retryWrites=true&w=majority
-All that changes is the text between the / and the ? towards the end of the connection string!
+```
 
-Viewing & Editing Data
-You can use Atlas to view and edit data by clicking on the Browse Collections button on the Database Deployments page, as shown below.
+**All that changes is the text between the `/` and the `?` towards the end of the connection string!**
 
-MongoDB also maintains an application called Compass that lets you browse your data on Atlas with just your connection string. You can download Compass here.
+## Viewing & Editing Data
+
+You can use Atlas to view and edit data by clicking on the **Browse Collections** button on the **Database Deployments** page, as shown below.
+
+MongoDB also maintains an application called Compass that lets you browse your data on Atlas with just your connection string. You can download Compass [here](https://www.mongodb.com/try/download/compass).
 
 ![Atlas Browse Collections](./assets/browse-collections.png)
 
-Test Drive in the Mongo Shell
-Click the Connect button again on the Overview page, and this time select Shell under the Access your data through tools header:
+## Test Drive in the Mongo Shell
+
+Click the **Connect** button again on the **Overview** page, and this time select **Shell** under the **Access your data through tools** header:
 
 ![Atlas Shell](./assets/shell.png)
 
-Although Atlas may show how to permanently install mongosh (MongoDB's Shell) for your operating system, it is unnecessary.
+Although Atlas may show how to permanently install `mongosh` (MongoDB's Shell) for your operating system, **it is unnecessary.**
 
-Instead, we can temporarily install and run mongosh by copying and pasting the command shown in Atlas into Terminal.
+Instead, we can temporarily install and run `mongosh` by copying and pasting the command shown in Atlas into **Terminal**.
 
 ![Atlas Shell Connection](./assets/shell-connection.png)
 
-❗️ Before pressing enter, add npx to the front of the command so that the command looks something like this:
+❗️ Before pressing enter, add `npx` to the front of the command so that the command looks something like this:
 
-npx mongosh "mongodb+srv://student-cluster.uwdsn12.mongodb.net/" --apiVersion 1 --username yourusername
-If prompted to install, be sure to answer with y.
+```bash
+npx mongosh "mongodb+srv://student-cluster.uwdsn12.mongodb.net/" --apiVersion 1 --username <yourusername>
+```
 
-You will be prompted to enter your database user's password.
+If prompted to install, be sure to answer with `y`.
 
-Congrats, you are now ready to test the database in the Intro to MongoDB lesson!
+You will be prompted to enter your **database user's** password.
+
+Congrats, you are now ready to test the database in the MongoDB lesson!
