@@ -28,6 +28,8 @@ Choose **one** of the following **two (2) options** to proceed:
     Click here
 </summary>
 
+### If You ***DID NOT*** Sign Up with Google
+
 1. Provide the **required information**. You should store this username and password somewhere easily accessible and secure (like a password manager).
 2. Read the **Terms of Service** and **Privacy Policy**, then agree to them.
 3. Finally select the **Create your Atlas acount** option.
@@ -60,6 +62,8 @@ Read the Terms of Service and Privacy Policy, then agree to them.
 Select the **Submit** button.
 
 ![Atlas Google Terms of Service](./assets/google-tos.png)
+
+Proceed to the **'Welcome to Atlas'** section below.
 
 </details>
 
