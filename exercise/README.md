@@ -16,12 +16,33 @@ First, you will need to sign up for a free account [here](https://www.mongodb.co
 
 As seen in the image above, you will have **two different options** to sign up:
 
-1. Enter the required information, agree to the Terms of Service, and click Create your Atlas account.
-2. Click Sign up with Google
+1. Click Sign up with Google (***blue button***)
+2. Enter the required information, agree to the Terms of Service, and click Create your Atlas account. (***red inputs and button***)
 
 Choose **one** of the following **two (2) options** to proceed:
 
-### Option 1: Sign up ***WITHOUT*** Google
+### Option 1: Sign up ***WITH*** Google
+<details>
+
+<summary>
+    Click here
+</summary>
+
+### Signing up ***WITH*** Google
+
+Click the **Sign up with Google** button.
+
+Read the Terms of Service and Privacy Policy, then agree to them.
+
+Select the **Submit** button.
+
+![Atlas Google Terms of Service](./assets/google-tos.png)
+
+Proceed to the **'Welcome to Atlas'** section below.
+
+</details>
+
+### Option 2: Sign up ***WITHOUT*** Google
 
 <details>
 <summary>
@@ -43,27 +64,6 @@ Find the email from MongoDB in your inbox and verify your email.
 After you've verified your email, you'll be taken to a page informing you that you've successfully verified your email and a **Continue** button.
 
 Click the **Continue** button.
-
-Proceed to the **'Welcome to Atlas'** section below.
-
-</details>
-
-### Option 2: Sign up ***WITH*** Google
-<details>
-
-<summary>
-    Click here
-</summary>
-
-### Signing up ***WITH*** Google
-
-Click the **Sign up with Google** button.
-
-Read the Terms of Service and Privacy Policy, then agree to them.
-
-Select the **Submit** button.
-
-![Atlas Google Terms of Service](./assets/google-tos.png)
 
 Proceed to the **'Welcome to Atlas'** section below.
 
