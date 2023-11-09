@@ -16,8 +16,8 @@ First, you will need to sign up for a free account [here](https://www.mongodb.co
 
 As seen in the image above, you will have **two different options** to sign up:
 
-1. Click Sign up with Google (***blue button***)
-2. Enter the required information, agree to the Terms of Service, and click Create your Atlas account. (***red inputs and button***)
+1. Click Sign up with Google (***blue highlighted button***)
+2. Enter the required information, agree to the Terms of Service, and click Create your Atlas account. (***red highlighted inputs and button***)
 
 Choose **one** of the following **two (2) options** to proceed:
 
