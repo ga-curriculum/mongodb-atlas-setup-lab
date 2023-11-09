@@ -16,6 +16,10 @@ Estimated time to complete core lab exercise: **tktk min**
 
 - [Lab exercise](./exercise/README.md)
 
+## Level Up
+
+🚀 [Level Up](./level-up/README.md)
+
 ## Deployed sites
 
 tktk If there is not a deployed site related to this module this section and all of its content should be removed.
