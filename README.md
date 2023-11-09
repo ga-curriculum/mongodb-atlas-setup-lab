@@ -2,7 +2,7 @@
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module. Introduce the lab. What will the students build in this lab?
+tktk In this unit, we will be working with non-relational databases. More specifically we will be working with MongoDB. We can utilize MongoDB Atlas to create and store our databases in the cloud. In order to do so, you will need to register for a MongoDb Atlas account. This lab will walk you through those steps.
 
 ## Prerequisites
 
@@ -21,8 +21,6 @@ Estimated time to complete core lab exercise: **tktk min**
 🚀 [Level Up](./level-up/README.md)
 
 ## Deployed sites
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
 
 🌐 [MongoDB Atlas Site](https://www.mongodb.com/atlas/database)
 
