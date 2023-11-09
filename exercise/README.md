@@ -1,10 +1,6 @@
 # ![[MongoDB Atlas Setup Lab] - Exercise](./assets/hero.png)
 
-tktk What is the core lab exercise?
-
-# ![[MongoDB Atlas Setup Lab] - Setup](./assets/hero.png)
-
-tktk Write setup steps specific to the lab.
+tktk The purpose of this lab is to register for a MongoDb Atlas account to utilize for creating non-relational databases.
 
 ## Create an Atlas Account
 
