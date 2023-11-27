@@ -1,4 +1,4 @@
-# ![[MongoDB Atlas Setup Lab] - Level Up](./assets/hero.png)
+# ![MongoDB Atlas Setup Lab - Level Up](./assets/hero.png)
 
 ## Test Drive in the Mongo Shell
 
