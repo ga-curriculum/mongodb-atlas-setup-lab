@@ -1,8 +1,8 @@
-# ![[MongoDB Atlas Setup Lab]](./assets/tktk-hero.png)
+# ![MongoDB Atlas Setup Lab](./assets/hero.png)
 
 ## About
 
-tktk In this unit, we will be working with non-relational databases. More specifically we will be working with MongoDB. We can utilize MongoDB Atlas to create and store our databases in the cloud. In order to do so, you will need to register for a MongoDb Atlas account. This lab will walk you through those steps.
+In this unit, we will be working with non-relational databases. More specifically we will be working with MongoDB. We can utilize MongoDB Atlas to create and store our databases in the cloud. In order to do so, you will need to register for a MongoDb Atlas account. This lab will walk you through those steps.
 
 ## Prerequisites
 
