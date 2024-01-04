@@ -2,15 +2,15 @@
 
 ## About
 
-In this unit, we will be working with non-relational databases. More specifically we will be working with MongoDB. We can utilize MongoDB Atlas to create and store our databases in the cloud. In order to do so, you will need to register for a MongoDb Atlas account. This lab will walk you through those steps.
+Welcome to the MongoDB Atlas Setup Lab! In this lab, we will guide you through the process of setting up a MongoDB Atlas account, which is essential for creating and managing non-relational databases. MongoDB Atlas is a leading service for hosting MongoDB databases online. Each step is clearly outlined with screenshots and detailed instructions to ensure a smooth setup experience. By the end of this lab, you will have a fully functional MongoDB Atlas account and the knowledge to deploy and manage databases effectively for your projects.
 
 ## Prerequisites
 
-- Introduction to Express
+None
 
 ## Time to complete
 
-Estimated time to complete core lab exercise: **tktk min**
+Estimated time to complete core lab exercise: **30 min**
 
 ## Content
 
