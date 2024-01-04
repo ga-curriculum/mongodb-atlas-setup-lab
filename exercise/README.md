@@ -1,6 +1,10 @@
 # ![MongoDB Atlas Setup Lab - Exercise](./assets/hero.png)
 
-The purpose of this lab is to register for a MongoDb Atlas account to utilize for creating non-relational databases.
+Welcome to the MongoDB Atlas Setup Lab! In this lab, we will guide you through the process of setting up a MongoDB Atlas account, which is essential for creating and managing non-relational databases. MongoDB Atlas is a leading service for hosting MongoDB databases, offering robust features and an intuitive interface for database management.
+
+This exercise is divided into several steps, starting with account creation, followed by database deployment, security configuration, and finally, obtaining the connection string for your applications. Each step is clearly outlined with screenshots and detailed instructions to ensure a smooth setup experience. By the end of this lab, you will have a fully functional MongoDB Atlas account and the knowledge to deploy and manage databases effectively for your projects.
+
+Let's get started!
 
 ## Create an Atlas Account
 
@@ -51,15 +55,15 @@ Proceed to the **'Welcome to Atlas'** section below.
 2. Read the **Terms of Service** and **Privacy Policy**, then agree to them.
 3. Finally select the **Create your Atlas acount** option.
 
-If you created an account without using Sign up with Google, you'll be taken to a page asking you to verify your email, as shown below.
+If you created an account with an email and password, you'll be taken to a page asking you to verify your email, as shown below.
 
 ![Atlas Email Verification](./assets/email-verification.png)
 
-Find the email from MongoDB in your inbox and verify your email.
+1. Find the email from MongoDB in your inbox and verify your email.
 
-After you've verified your email, you'll be taken to a page informing you that you've successfully verified your email and a **Continue** button.
+2. After you've verified your email, you'll be taken to a page informing you that you've successfully verified your email and a **Continue** button.
 
-Click the **Continue** button.
+3. Click the **Continue** button.
 
 Proceed to the **'Welcome to Atlas'** section below.
 
@@ -67,47 +71,47 @@ Proceed to the **'Welcome to Atlas'** section below.
 
 ## Welcome to Atlas
 
-Answer the marketing questions however you'd like. Some suggestions are shown below, but your selections do not impact your experience.
+1. Answer the marketing questions however you'd like. Some suggestions are shown below, but your selections do not impact your experience.
 
-Select the **Finish** button when you're done.
+2. Select the **Finish** button when you're done.
 
 ![Atlas Marketing](./assets/marketing.png)
 
 ## Deploy Your Database
 
-It's time to set up the cluster!
+It's time to set up the cluster! Clusters are MongoDB's way of collecting your databases all in one place.
 
-Clusters are MongoDB's way of collecting your databases all in one place.
+1. Select the **M0** option, which is ***FREE***.
 
-Select the **M0** option, which is ***FREE***.
+2. Select **AWS as the Provider**, and select the **Region** closest to your job market.
 
-Select **AWS as the Provider**, and select the **Region** closest to your job market.
+3. Name your cluster whatever you want, but know that this name cannot be changed later. We recommend something simple like `student-cluster`. 
 
-Name your cluster whatever you want, but know that this name cannot be changed later. Ensure that the text directly above the **Create** button says **FREE**.
+4. Ensure that the text directly above the **Create** button says **FREE**.
 
-***Do not select the*** **Create** ***button unless this text says*** **FREE.** If it has a dollar amount, review your selections and ensure you have correctly configured the service from this page.
+5. ***Do not select the*** **Create** ***button unless this text says*** **FREE.** If it has a dollar amount, review your selections and ensure you have correctly configured the service from this page.
 
-Finally, select the **Create** button.
+6. Finally, select the **Create** button.
 
 ![Atlas AWS](./assets/aws.png)
 
 ## Security Quickstart
 
-You will be taken to a ***Security Quickstart*** page. There will be a message at the bottom left stating that the database cluster is being provisioned, along with the approximate amount of time it will take to complete.
+Next, you will be taken to a ***Security Quickstart*** page. There will be a message at the bottom left stating that the database cluster is being provisioned, along with the approximate amount of time it will take to complete.
 
-While the cluster is provisioned, create a **database user** (*different from your account user*) by following the steps in the **'How would you like to authenticate your connection?'** section.
+While the cluster is being provisioned, create a **database user** (*different from your account user*) by following the steps in the **'How would you like to authenticate your connection?'** section.
 
-The database user's credentials you create now must be **embedded** in the **connection string** used to connect to the database, which you will retrieve soon.
+1. Select a **username** and **password**. The username and password must be **alphanumeric**. They **cannot** contain any characters that are not English letters or numbers. **Do not** use special characters of any kind, including spaces.
 
-Select a **username** and **password**. The username and password must be **alphanumeric**. They **cannot** contain any characters that are not English letters or numbers. **Do not** use special characters of any kind, including spaces.
+2. Feel free to use the **Autogenerate Secure Password** option if you would like or use the default selections; it will only build passwords that meet this constraint. 
 
-Feel free to use the **Autogenerate Secure Password** option if you would like or use the default selections; it will only build passwords that meet this constraint.
+3. *Pause*- After creating your username and password, make sure to save them in a secure yet accessible place, such as a password manager. Use the **Copy** button provided to accurately copy your password. You'll need to access these details shortly. Remember, the credentials you've just created will be incorporated into a **connection string**, a crucial element for **connecting your applications to the database**.
 
-It is vital that you store this username and password somewhere easily accessible and secure (like a password manager). Use the provided **Copy** button to ensure you have an exact copy of your chosen password. **You are going to need access to this information soon.**
-
-After you have selected a username and password, select **Create User**.
+4. After you have selected a username and password, select **Create User**.
 
 ![Atlas Security Quickstart 1](./assets/security-quickstart-1.png)
+
+<hr> 
 
 The page should look like this after the above step:
 
@@ -115,15 +119,17 @@ The page should look like this after the above step:
 
 Scroll down to the second step: **Where would you like to connect from?**
 
-In the IP Address field, enter the text **0.0.0.0/0** exactly as shown here.
+1. In the IP Address field, enter the text **0.0.0.0/0** exactly as shown here.
 
-In the description, write **Anywhere**.
+2. In the description, write **Anywhere**.
 
-Then click the **Add Entry** button.
+3. Then click the **Add Entry** button.
 
 > ❗️ IMPORTANT: This is ***NOT*** a suitable setting in a production environment and means that your database can be accessed from any device that has the correct username and password combination. We are using this setting to ensure you can easily develop and deploy to aid your educational experience. For this reason (among others), it is imperative that you not store personally identifying information (phone numbers, addresses, credit card numbers or details, insurance identification, your lucky numbers, etc. in your database.)
 
 ![Atlas Security Quickstart 2](./assets/security-quickstart-2.png)
+
+<hr>
 
 The page should look like this after the above step.
 
@@ -133,17 +139,19 @@ Select the **Finish and Close** button and then the **Go to Overview** button in
 
 ## Obtain the Connection String
 
-**IMPORTANT:** Database connection strings ***contain*** the **username** and **password** for connecting to the database. **NEVER** include the connection string in the project's source code - use a `.env` file instead.
+A connection string is a line of text that specifies the necessary parameters to establish a secure connection to a database. It includes critical information such as the database's location, username, and password. This string is essential for your application to communicate with the database.
 
-You will arrive on the **Overview** page. To obtain the connection string that will be added to a project's `.env` file, click the **Connect** button as shown below:
+> ❗️ **IMPORTANT:** Database connection strings ***contain*** the **username** and **password** for connecting to the database. **NEVER** include the connection string in the project's source code - use a `.env` file instead to keep this sensitive information secure.
+
+1. Once you arrive on the **Overview** page, click the **Connect** button as shown below:
 
 ![Atlas Overview](./assets/atlas-overview.png)
 
-Select the only option under the **Connect to your application** header, **Drivers**:
+2. Select the only option under the **Connect to your application** header, **Drivers**:
 
 ![Atlas Connection Methos](./assets/connection-method.png)
 
-Click the **'copy'** button to add the connection string to your clipboard. You do not need to do anything else on this page.
+3. Click the **'copy'** button to add the connection string to your clipboard. You do not need to do anything else on this page.
 
 ![Atlas Connection String](./assets/connection-string.png)
 
@@ -151,44 +159,51 @@ Click the **'copy'** button to add the connection string to your clipboard. You 
 
 > ❗️ Please do not attempt to use any of the connection strings below; they will not function in your applications.
 
-You're almost done, but you ***MUST*** update the connection string with a few changes:
+We're almost done, but you'll need to make a couple of changes in your connection string before it can be used:
 
-1. Replace `<password>` (including the `<` and the `>`) with the **password** of the database user you created earlier.
+1. **Add Password:** Replace `<password>` (including the `<` and the `>`) with the **password** of the database user you created earlier.
 
-    For example, using the password `my2Tacos` along with the connection string above as an example, the connection string would look like this after making this change:
+    For example, using the password `my2Tacos` a properly formatted connection string would look like this:
 
     ```bash
     mongodb+srv://student:my2Tacos@student-cluster.uwdsn12.mongodb.net/?retryWrites=true&w=majority
     ```
 
-2. **IMPORTANT:** The connection string does not include a database name by default. You'll add an appropriate database name between the `/?` part of the connection string for each project. For example, if you have a project named `my-project`, you could give the database the same name:
+2. **Add Database Name:** It is important to note that the connection string does not include a **database name** by default. You'll need to add an appropriate database name between the `/?` part of the connection string for each project. For example, if you have a project named `my-project`, you could give the database the same name:
 
     ```bash
     mongodb+srv://student:my2Tacos@student-cluster.uwdsn12.mongodb.net/my-project?retryWrites=true&w=majority
     ```
-You're good to go!
 
-You can now paste the connection string in an application's `.env` file, assigning it to a **DATABASE_URL** environment variable. As an example:
+3. With your **password** and **database name** added, your connection string is now ready to use. 
 
-```bash
-DATABASE_URL=mongodb+srv://student:my2Tacos@student-cluster.uwdsn12.mongodb.net/my-project?retryWrites=true&w=majority
-```
+4. Paste the connection string into your application's `.env` file, assigning it to a **DATABASE_URL** environment variable.
 
-You can use this database connection string for multiple projects. If you plan to do so, save the copied database connection string in a safe place for future reference! 
+    As an example:
 
-For future projects, if you do use the same connection string, just be sure to change the ***database name*** part of the connection string, as mentioned above. For example, if you were to build a **flights** app, you might have a connection string that looks like this:
+    ```bash
+    DATABASE_URL=mongodb+srv://student:my2Tacos@student-cluster.uwdsn12.mongodb.net/my-project?retryWrites=true&w=majority
+    ```
 
+> ❗️ **If you do not have an application built yet, paste your connection string somewhere safe on your computer for future use.**
+
+## Reusing the connection string for multiple projects
+
+The database connection string you've created can be used for various projects. Remember to securely store this string for easy access in the future.
+
+When using the same connection string for different projects, simply replace the **database name** within the string. For instance:
+
+For a flights app, the string might be:
 ```bash
 mongodb+srv://student:my2Tacos@student-cluster.uwdsn12.mongodb.net/flights?retryWrites=true&w=majority
 ```
 
-And if you were to build a **tacos** app, you might have a connection string that looks like:
-
+For a tacos app, it could be:
 ```bash
 mongodb+srv://student:my2Tacos@student-cluster.uwdsn12.mongodb.net/tacos?retryWrites=true&w=majority
 ```
 
-**All that changes is the text between the `/` and the `?` towards the end of the connection string!**
+**The only change needed is the database name, which is the text between the / and ? in the connection string.**
 
 ## Viewing & Editing Data
 
