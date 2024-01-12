@@ -20,10 +20,6 @@ Estimated time to complete core lab exercise: **30 min**
 
 🚀 [Level Up](./level-up/README.md)
 
-## Deployed sites
-
-🌐 [MongoDB Atlas Site](https://www.mongodb.com/atlas/database)
-
 ## Internal resources
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)

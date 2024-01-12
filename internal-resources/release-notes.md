@@ -2,18 +2,10 @@
 
 ## Version 1.0 - Updates from legacy content
 
-This release modularizes the legacy [tktk previous lab name] lab and provides some other minor updates detailed below.
+This release modularizes the legacy Create an Atlas Hosted MongoDB lab and provides some other minor updates detailed below.
 
 ### Release details
 
-**Additions**
-
-
-
 **Changes**
 
-
-
-**Removals**
-
-
+- Minor updates made to screenshots to reflect updates to the MongoDB Atlas UI.
