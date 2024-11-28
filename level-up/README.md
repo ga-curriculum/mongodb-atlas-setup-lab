@@ -1,6 +1,6 @@
 <h1>
   <span class="headline">MongoDB Atlas Setup Lab</span>
-  <span class="subhead">README</span>
+  <span class="subhead">Level Up</span>
 </h1>
 
 ## Test Drive in the Mongo Shell
