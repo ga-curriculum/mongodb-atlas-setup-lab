@@ -1,4 +1,7 @@
-# ![MongoDB Atlas Setup Lab - Level Up](./assets/hero.png)
+<h1>
+  <span class="headline">MongoDB Atlas Setup Lab</span>
+  <span class="subhead">README</span>
+</h1>
 
 ## Test Drive in the Mongo Shell
 
@@ -20,6 +23,7 @@ npx mongosh "mongodb+srv://student-cluster.uwdsn12.mongodb.net/" --apiVersion 1 
 
 If prompted to install, be sure to answer with `y`.
 
-You will be prompted to enter your ***database user's*** password.
+You will be prompted to enter your **_database user's_** password.
 
 Congrats, you are now ready to test your databases! 🎉
+�

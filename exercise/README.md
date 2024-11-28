@@ -1,4 +1,7 @@
-# ![MongoDB Atlas Setup Lab - Exercise](./assets/hero.png)
+<h1>
+  <span class="headline">MongoDB Atlas Setup Lab</span>
+  <span class="subhead">Exercise</span>
+</h1>
 
 Welcome to the MongoDB Atlas Setup Lab! In this lab, we will guide you through setting up a MongoDB Atlas account, which is essential for creating and managing non-relational databases. MongoDB Atlas is a leading service for hosting MongoDB databases, offering robust features and an intuitive interface for database management.
 
